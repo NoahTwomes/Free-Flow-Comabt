@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\Lighting2.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{F31BBDD1-B3E8-3BCC-9652-680E16935819}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Lighting2.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\Lighting2Editor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\.vsconfig" />
+    <None Include="..\..\ignore.conf" />
+    <None Include="..\..\README.md" />
+    <Filter Include="Config">
+      <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGameplayTags.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Platforms">
+      <UniqueIdentifier>{ED49A36C-4FD5-37E5-A2AC-E11BEF4F21CF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Platforms\HoloLens">
+      <UniqueIdentifier>{28125F47-4973-377C-9D77-EBC3C72EC856}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Platforms\HoloLens\Config">
+      <UniqueIdentifier>{D3BF39CB-FA64-39E2-A327-B5021BA69773}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Platforms\HoloLens\Config\HoloLensEngine.ini">
+      <Filter>Platforms\HoloLens\Config</Filter>
+    </None>
+    <Filter Include="Source\Lighting2">
+      <UniqueIdentifier>{BF9E111A-F90C-331C-8C9A-2D6EAFC7329C}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Lighting2\ANS_AIAttackCollision.cpp">
+      <Filter>Source\Lighting2</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Lighting2\ANS_AIAttackCollision.h">
+      <Filter>Source\Lighting2</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Lighting2\ANS_AITeleport.cpp">
+      <Filter>Source\Lighting2</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Lighting2\ANS_AITeleport.h">
+      <Filter>Source\Lighting2</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Lighting2\ANS_FinisherTeleport.cpp">
+      <Filter>Source\Lighting2</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Lighting2\ANS_FinisherTeleport.h">
+      <Filter>Source\Lighting2</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Lighting2\ANS_PlayerTeleport.cpp">
+      <Filter>Source\Lighting2</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Lighting2\ANS_PlayerTeleport.h">
+      <Filter>Source\Lighting2</Filter>
+    </ClInclude>
+    <None Include="..\..\Source\Lighting2\Lighting2.Build.cs">
+      <Filter>Source\Lighting2</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\Lighting2\Lighting2.cpp">
+      <Filter>Source\Lighting2</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Lighting2\Lighting2.h">
+      <Filter>Source\Lighting2</Filter>
+    </ClInclude>
+    <Filter Include="Source\Lighting2\ActorComponent">
+      <UniqueIdentifier>{37AAF77B-9AB5-3418-B0AC-16727654A0BF}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Lighting2\ActorComponent\AC_EnemyComp_Base.cpp">
+      <Filter>Source\Lighting2\ActorComponent</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Lighting2\ActorComponent\AC_EnemyComp_Base.h">
+      <Filter>Source\Lighting2\ActorComponent</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Lighting2\ActorComponent\AC_FFCC_Base.cpp">
+      <Filter>Source\Lighting2\ActorComponent</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Lighting2\ActorComponent\AC_FFCC_Base.h">
+      <Filter>Source\Lighting2\ActorComponent</Filter>
+    </ClInclude>
+    <Filter Include="Source\Lighting2\Asset">
+      <UniqueIdentifier>{166FD603-7205-39EB-8A3E-2364EA93CE9C}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Lighting2\Asset\FFCS_Data.cpp">
+      <Filter>Source\Lighting2\Asset</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Lighting2\Asset\FFCS_Data.h">
+      <Filter>Source\Lighting2\Asset</Filter>
+    </ClInclude>
+    <Filter Include="Source\Lighting2\EQS">
+      <UniqueIdentifier>{64CD7457-91D4-3921-99B5-603932629891}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Lighting2\EQS\FFCS_EnvQG_GetBackCone.cpp">
+      <Filter>Source\Lighting2\EQS</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Lighting2\EQS\FFCS_EnvQG_GetBackCone.h">
+      <Filter>Source\Lighting2\EQS</Filter>
+    </ClInclude>
+    <Filter Include="Source\Lighting2\HUD">
+      <UniqueIdentifier>{9B42A9CE-FBB1-392E-8892-7E5D8A583D61}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Lighting2\HUD\FFCS_HUDBase.cpp">
+      <Filter>Source\Lighting2\HUD</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Lighting2\HUD\FFCS_HUDBase.h">
+      <Filter>Source\Lighting2\HUD</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

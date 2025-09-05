@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "Lighting2",
+			"Path": "C:\\Users\\User\\Documents\\GitHub\\Free-Flow-Comabt\\BatmanBoys\\Source\\Lighting2.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "Lighting2Editor",
+			"Path": "C:\\Users\\User\\Documents\\GitHub\\Free-Flow-Comabt\\BatmanBoys\\Source\\Lighting2Editor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}
